@@ -3,14 +3,14 @@
 /*================================================
 Default CSS
 =================================================*/
-$font-family: 'Open Sans', sans-serif;
+$font-family: 'Silka', sans-serif;
 $font-family2: 'Dosis', sans-serif;
 $main-color: #00b0ee;
 $optional-color: #3e57d0;
 $white-color: #ffffff;
 $black-color: #393953;
 $paragraph-color: #737b9a;
-$font-size: 15px;
+$font-size: 20px;
 $transition: .5s;
 
 body {
@@ -92,7 +92,7 @@ p {
     transition: 0.6s;
     border-radius: 10px;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 12px;
@@ -167,9 +167,14 @@ p {
     line-height: 1;
     
     span {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         color: $main-color;
+    }
+    h2 {
+        font-size: 50px;
+        color: $white-color;
+        margin: 10px 0 0 0;
     }
     h3 {
         font-size: 38px;
@@ -796,11 +801,11 @@ Main Banner Area CSS
     }
 }
 .main-banner-content {
-    max-width: 635px;
+    max-width: 800px;
     margin-left: auto;
 
     h1 {
-        font-size: 75px;
+        font-size: 70px;
         color: $white-color;
         margin: 0 0 30px 0;
     }
@@ -2378,8 +2383,8 @@ Partner Section CSS
         -webkit-box-flex: 0;
         flex: 0 0 20%;
         max-width: 20%;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
 
         a {
             display: block;
@@ -2546,7 +2551,7 @@ Services Section CSS
         }
     }
     p {
-        font-size: 14px;
+        font-size: 16px;
         transition: $transition;
         margin: {
             top: 15px;
@@ -2559,7 +2564,7 @@ Services Section CSS
         .services-btn-one {
             display: inline-block;
             font-size: $font-size;
-            color: $paragraph-color;
+            color: $main-color;
             font-weight: 500;
             transition: $transition;
         }
@@ -5766,7 +5771,7 @@ Footer Section CSS
             display: inline-block;
             height: 35px;
             width: 35px;
-            line-height: 33px;
+            line-height: 35px;
             background-color: $white-color;
             border: 1px solid $white-color;
             border-radius: 50px;
@@ -5775,7 +5780,7 @@ Footer Section CSS
             text-align: center;
 
             &::before {
-                font-size: 14px;
+                font-size: 20px;
             }
             &:hover {
                 background-color: $main-color;

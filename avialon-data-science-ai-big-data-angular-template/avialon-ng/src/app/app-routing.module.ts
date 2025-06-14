@@ -25,7 +25,7 @@ import { ErrorComponent } from './components/pages/error/error.component';
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
     {path: 'home-two', component: HomeTwoComponent},
-    {path: 'home-three', component: HomeThreeComponent},
+    {path: 'crowd-sourcing', component: HomeThreeComponent},
     {path: 'home-four', component: HomeFourComponent},
     {path: 'about', component: AboutComponent},
     {path: 'team', component: TeamComponent},
