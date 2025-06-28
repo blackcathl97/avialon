@@ -25,8 +25,8 @@ import { ErrorComponent } from './components/pages/error/error.component';
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
     {path: 'home-two', component: HomeTwoComponent},
-    {path: 'crowd-sourcing', component: HomeThreeComponent},
-    {path: 'home-four', component: HomeFourComponent},
+    {path: 'data-collection', component: HomeThreeComponent},
+    {path: 'data-annotation', component: HomeFourComponent},
     {path: 'about', component: AboutComponent},
     {path: 'team', component: TeamComponent},
     {path: 'projects', component: ProjectsComponent},

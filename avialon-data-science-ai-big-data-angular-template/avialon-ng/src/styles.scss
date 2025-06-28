@@ -42,6 +42,13 @@ button {
         bottom: 100px;
     }
 }
+.ptb-50 {
+    padding: {
+        top: 50px;
+        bottom: 50px;
+    }
+}
+
 .pb-70 {
     padding-bottom: 70px;
 }
@@ -310,7 +317,7 @@ Navbar Area CSS
                     text-transform: capitalize;
                     font: {
                         size: 16px;
-                        weight: 500;
+                        weight: 600;
                     }
                     padding: {
                         left: 0;
@@ -1272,12 +1279,11 @@ Main Banner Four Area CSS
     overflow: hidden;
     position: relative;
     z-index: 1;
-    height: 900px;
+    height: 950px;
     background: linear-gradient(to bottom, #4b43c5, #385bd5, #2270e2, #0c84ec, #1397f3);
 
     .main-banner-content {
-        max-width: 635px;
-
+        
         h1 {
             font-size: 60px;
             color: $white-color;
@@ -1497,7 +1503,54 @@ Fun Facts Section CSS
         }
     }
 }
+.fun-facts-area-2 {
+    position: relative;
+    background-image: url(assets/img/counter-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
 
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: #0e0b2d;
+        z-index: -1;
+        opacity: 0.9;
+    }
+}
+.single-fun-fact {
+    text-align: center;
+    position: relative;
+
+    h3 {
+        position: relative;
+        color: $white-color;
+        margin-bottom: 5px;
+        line-height: 1;
+        font: {
+            size: 50px;
+            weight: 700;
+        }
+        .sign-icon {
+            display: inline-block;
+            font-size: 46px;
+        }
+    }
+    p {
+        line-height: initial;
+        color: $white-color;
+        margin: 0 0 0 0;
+        font: {
+            weight: 600;
+            size: 20px;
+        }
+    }
+}
 /*================================================
 Tabs Solutions Section CSS
 =================================================*/
@@ -3171,8 +3224,7 @@ Page Title Area CSS
     z-index: 1;
     height: 500px;
     background: {
-        image: url(assets/img/page-title-bg.jpg);
-        position: center center;
+        position: center;
         size: cover;
         repeat: no-repeat;
     };
@@ -3181,7 +3233,7 @@ Page Title Area CSS
         position: absolute;
         height: 100%;
         width: 100%;
-        background-color: #000000;
+        background-color: #662f6c;
         left: 0;
         top: 0;
         opacity: 0.7;
@@ -5742,6 +5794,11 @@ Footer Section CSS
 }
 .footer-heading {
     margin-bottom: 25px;
+    
+    h1 {
+        color: $white-color;
+        position: relative;
+    }
 
     h3 {
         font-size: 20px;
@@ -5797,6 +5854,10 @@ Footer Section CSS
     .footer-heading {
         margin-bottom: 25px;
 
+        h1 {
+            color: $white-color;
+        }
+
         h3 {
             font-size: 20px;
             color: $white-color;
@@ -5847,6 +5908,11 @@ Footer Section CSS
                 font-size: 20px;
             }
         }
+
+        h1 {
+            color: $white-color;
+        }
+        
         h3 {
             font-size: 16px;
             color: #e0dbdb;
