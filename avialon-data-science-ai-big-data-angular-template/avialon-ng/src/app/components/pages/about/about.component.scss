@@ -1,3 +1,22 @@
 .page-title-area {
     background: linear-gradient( rgba(0, 12, 23, 0.504) 0%, rgb(26, 0, 86) 100%);
   }
+
+  .typing-container {
+    .white-text {
+      color: white;
+      font-size: 55px;
+    }
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 1ch;
+    animation: blink 1s steps(1) infinite;
+    color: white;
+  }
+  
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
